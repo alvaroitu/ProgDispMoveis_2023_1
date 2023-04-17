@@ -9,19 +9,19 @@
     <Button
             android:text="Enviar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/buttonEnviar"
+            android:layout_height="wrap_content" android:id="@+id/botaoEnviar"
             tools:layout_editor_absoluteX="158dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="16dp" tools:ignore="DuplicateSpeakableTextCheck"/>
     <Button
             android:text="Limpar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/buttonLimpar"
+            android:layout_height="wrap_content" android:id="@+id/botaoLimpar"
             tools:layout_editor_absoluteX="158dp" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/buttonEnviar"/>
+            app:layout_constraintTop_toBottomOf="@+id/botaoEnviar"/>
     <TextView
             android:text="Texto"
             android:layout_width="match_parent"
             android:layout_height="198dp" android:id="@+id/textView"
             tools:layout_editor_absoluteX="0dp" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/buttonLimpar" android:gravity="center"/>
+            app:layout_constraintTop_toBottomOf="@+id/botaoLimpar" android:gravity="center"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
